@@ -1,0 +1,26 @@
+PODS:
+  - FMDB/common (2.5)
+  - FMDB/SQLCipher (2.5):
+    - FMDB/common
+    - SQLCipher
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - FMDB/SQLCipher
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - FMDB
+    - SQLCipher
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
+
+PODFILE CHECKSUM: be5f50f35f3ed7be4fa0770b0a51903c05c5699f
+
+COCOAPODS: 1.10.1
